@@ -1,8 +1,9 @@
+#include <ctype.h>
 #include "monty.h"
 
 /**
- * pchar - will print the int at the top of the stack as char
- * @stack: the stack given by the main
+ * pchar - prints the int at the top of the stack as char
+ * @stack: stack given by main
  * @line_cnt: amount of lines
  *
  * Return: void
