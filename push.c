@@ -1,5 +1,3 @@
-#include <ctype.h>
-#include <string.h>
 #include "monty.h"
 
 /**
@@ -11,6 +9,7 @@
  *
  * Return: void
  */
+
 void push(stack_t **stack, unsigned int line_cnt)
 {
 	char *n = global.argument;
